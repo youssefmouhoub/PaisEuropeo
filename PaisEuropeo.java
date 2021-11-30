@@ -38,8 +38,9 @@ public class PaisEuropeo {
         System.out.println ("País: " + nombrePais + "|" + "Población: " + poblacionPais + "|" + "Miembro de La Unión Europea: Sí");
     }
 
-    public void estadoObjeto () {
-        System.out.println ("Estado del objeto: Creado");
+    public String getEstadoObjeto () {
+        String infoPais = "País: " + nombrePais + "|" + "Población: " + poblacionPais + "|" + "Miembro de La Unión Europea: Sí";
+        return infoPais;
     }
 
 }

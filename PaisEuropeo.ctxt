@@ -17,5 +17,5 @@ comment7.target=void\ alterarMiembroDeLaUnioEuropea()
 comment8.params=
 comment8.target=void\ mostrarInfoPais()
 comment9.params=
-comment9.target=void\ estadoObjeto()
+comment9.target=java.lang.String\ estadoObjeto()
 numComments=10
