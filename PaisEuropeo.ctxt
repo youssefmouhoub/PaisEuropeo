@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=PaisEuropeo
-comment1.params=nombreDelPais\ poblacionDelPais
-comment1.target=PaisEuropeo(java.lang.String,\ int)
+comment1.params=nombreDelPais\ poblacionDelPais\ siEsMiembro
+comment1.target=PaisEuropeo(java.lang.String,\ int,\ boolean)
 comment2.params=
 comment2.target=java.lang.String\ getNombrePais()
 comment3.params=
@@ -17,5 +17,5 @@ comment7.target=void\ alterarMiembroDeLaUnioEuropea()
 comment8.params=
 comment8.target=void\ mostrarInfoPais()
 comment9.params=
-comment9.target=java.lang.String\ estadoObjeto()
+comment9.target=java.lang.String\ getEstadoObjeto()
 numComments=10

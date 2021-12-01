@@ -4,10 +4,10 @@ public class PaisEuropeo {
     private int poblacionPais;
     private boolean miembroDeLaUnionEuropea;
 
-    public PaisEuropeo (String nombreDelPais, int poblacionDelPais){
+    public PaisEuropeo (String nombreDelPais, int poblacionDelPais, boolean siEsMiembro){
         nombrePais = nombreDelPais;
         poblacionPais = poblacionDelPais;
-        miembroDeLaUnionEuropea = true;
+        miembroDeLaUnionEuropea = siEsMiembro;
     }
 
     public String getNombrePais () {
@@ -31,11 +31,16 @@ public class PaisEuropeo {
     }
 
     public void alterarMiembroDeLaUnioEuropea () {
-        miembroDeLaUnionEuropea = false;
+        if (miembroDeLaUnionEuropea == true) {
+            miembroDeLaUnionEuropea = false;
+        }
+        else {
+            miembroDeLaUnionEuropea = true;
+        }
     }
 
     public void mostrarInfoPais () {
-        System.out.println ("País: " + nombrePais + "|" + "Población: " + poblacionPais + "|" + "Miembro de La Unión Europea: Sí");
+        System.out.println ("País: " + nombrePais + "|" + "Población: " + poblacionPais + "|" + "Miembro de La Unión Europea: " + miembroDeLaUnionEuropea);
     }
 
     public String getEstadoObjeto () {
