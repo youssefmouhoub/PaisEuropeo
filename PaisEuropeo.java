@@ -18,8 +18,8 @@ public class PaisEuropeo {
         return poblacionPais;
     }
 
-    public int getMiembroDeLaUnionEuropea () {
-        return poblacionPais;
+    public boolean getMiembroDeLaUnionEuropea () {
+        return miembroDeLaUnionEuropea;
     }
 
     public void setNombrePais (String nombreDelPais) {
